@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB - HTML</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+    <li><a href="webhosting">WebHosting</a></li>
+  </ol>
+
+  <h1>HTML이란 무엇인가?</h1>
+  Hyper Text Markup Language<br>
+  h1은 중복해서 사용해도 된다. 글자 크기가 줄어들 뿐.
+  hello web
+  As long as there is life, there is hope-Cicero
+  <strong>Find <u>happiness</u> in your job.</strong> Or you will never know what happiness is.
+
+<h2>p와br</h2>
+  <p>W3C released today to the public the May 2020 W3C Strategic Highlights.</p>
+  <p style="margin-top:45px;">p는 단락을 의미하는 태그이고 br은 엔터같은느낌</p>
+
+  <p>검색엔진에 노출 잘되게 하려면 h1태그를 사용해야한다 스타일로 글을 써도
+    <br>의미에 맞게 정확하게 사용한 html을 이길 수 없다</p>
+
+  The <br> tag inserts a single line break.
+
+   The <br> tag is useful for writing addresses or poems.
+
+  The <br> tag is an empty tag which means that it has no end tag.
+
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+
+  <p>
+  This paragraph
+  contains a lot of lines
+  in the source code,
+  but the browser
+  ignores it.
+  </p>
+
+  <p>
+  This paragraph
+  contains         a lot of spaces
+  in the source         code,
+  but the        browser
+  ignores it.
+  </p>
+
+  <pre>
+    My Bonnie lies over the ocean.
+
+    My Bonnie lies over the sea.
+
+    My Bonnie lies over the ocean.
+
+    Oh, bring back my Bonnie to me.
+  </pre>
+
+  <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+
+  <h3>이미지넣기</h3>
+  <img src="coding.jpg"><p>이미지를 넣으려면 source라는단어를사용하는데src를사용하고 =큰따옴표하고
+  이미지 주소를 작성하면 이미지를 넣을 수 있다 사이즈는 width=100%태그를사용이떄 src와같은태그에넣는다
+  </p>
+
+<h4>리스트목록만들기+Li와 OL그리고 UL</h4>
+  OL은 Ordered List UL은 Unordered List이다 <br>
+  탭키누르면 들여쓰기가능, 아래 개수가 1억개기넘으면 하나수정할떄다해야한다 이럴떄<br>
+  우리를 구원해줄 것은 ol태그이다
+
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+  <ul>
+    <li>eging</li>
+    <li>k8850</li>
+    <li>youbin</li>
+  </ul>
+
+<h5>html을구성하는 중요한요소들</h5>
+  <p>
+  우리는 파일명으로 주소가 나오는데 이를 멋지게 해결해줄 태그들<br>
+  제목(즉 사이트명 이름을나타낼 떄에는)title이라는 태그로 감싸준다. 책으로치면 책표지와 같은 역할<br>
+  현재 우리가 작성한 것은 utf8로 열어야 문제가 없다 utf는 meta charset="utf-8"로<br>
+  작성해야한다 이건 컴퓨터한테 utf로열어달라고 부탁하는것.<br>
+  오늘배운title과 utf는 상단에 위치한다. 밑에있는h1이하의 본문을 설명하는 태그들이다<br>
+  title은 본문의 제목이무엇인지 설명하고 meta~은 이파일이 utf-8이라는 방식으로 저장되어있다라는
+  것을 설명하고있다<br>
+  그리고 본문은 body라는 태그로 묶기로 사람사이에 약속으로 정해놓았다. 그리고 본문을 설명하는 <br>
+  다시말해 body를 설명하는 태그(위에타이틀과 utf)는 head로 묶기로 약속했다.<br>
+  이처럼 태그들을 묶는 바디와 헤드는 고위직태그인데 이것들을 그위에서 묶는 최고위직 태그 html이라는태그이다<br>
+  그리고 이html을 관용적으로 묶어주는태그 !doctype html태그가있다. 그냥 맨위에 작성하는듯.<br>
+  </p>
+
+<h6>태그의 제왕</h6>
+150여개의 태그로있는 태그는 모두 이 태그아래에 있다 바로 하이퍼텍스트를 의미하는<br>
+<strong><u>anchor의 첫글자를 딴 a태그 이다.</u></strong><br>
+anchor는 닻을 의미한다. 정보의 바다에 정박한다는 의미의 시적인 표현. 그래서
+<strong><u>a태그는 링크이다.</u></strong><br>
+공식사용설명서 링크걸기<br>
+html specification을 검색엔진에 검색해보기. 이주소를 아래텍스트에 저장하려면<br>
+a태그를 해줘야하는데 a태그를 하고 a href=""를하고 큰따옴표에주소를 넣어(h는 hyper ref는
+referance이다.)준다.<br>
+<a href="https://www.w3.org/TR/html51/">  Hyper Text Markup Language</a><br>
+추가적으로 새탭에 열고 싶다면 링크주소뒤에 target="_blank"를 넣어준다<br>
+<a href="https://www.w3.org/TR/html51/"
+target="_blank">  Hyper Text Markup Language</a><br>
+그리고 여기있는 링크가 클릭하기전에 무엇인지 툴팁으로 알려주고 싶다면 <br>
+title="html5 speication"을 추가해준다.<br>
+<a href="https://www.w3.org/TR/html51/"
+target="_blank" title="html5 speicification">  Hyper Text Markup Language</a><br>
+
+
+</body>
+</html>
